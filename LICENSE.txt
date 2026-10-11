@@ -1,0 +1,24 @@
+Airline Tycoon Deluxe – Čeština
+Copyright © 2026 LusciousFox
+All rights reserved.
+
+Tato česká lokalizace, její překladové texty, úpravy, sestavení
+a distribuční balík jsou určeny pouze pro osobní použití.
+
+Bez předchozího písemného souhlasu autora není dovoleno:
+
+- lokalizaci ani její části upravovat,
+- vytvářet a veřejně šířit odvozené verze,
+- lokalizaci přebalovat,
+- znovu ji nahrávat na jiné webové stránky nebo služby,
+- redistribuovat ji samostatně ani jako součást jiného balíku,
+- vydávat ji pod jiným názvem nebo jménem autora.
+
+Je dovoleno odkazovat na oficiální stránku nebo místo stažení
+lokalizace.
+
+Původní hra Airline Tycoon Deluxe, její názvy, grafika, zvuky,
+fonty a další původní materiály jsou majetkem jejich příslušných
+vlastníků. Tato licence se vztahuje pouze na autorské příspěvky
+LusciousFox a nevytváří žádný nárok na vlastnictví původních
+herních materiálů.
