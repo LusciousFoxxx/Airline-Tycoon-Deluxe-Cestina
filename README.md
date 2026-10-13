@@ -1,4 +1,4 @@
-# Airline Tycoon Deluxe – Čeština 1.0
+# Airline Tycoon Deluxe – Čeština 1.1
 
 Kompletní česká lokalizace pro **Airline Tycoon Deluxe**.
 
@@ -18,7 +18,7 @@ Přináší například:
 - opravy zaměstnanců, dražeb a některých misí,
 - opravy a modernizaci síťové hry.
 
-Čeština 1.0 byla otestována s verzí **1.8.1 Preview** a funguje s ní správně.
+Čeština byla otestována s verzí **1.8.1 Preview** a funguje s ní správně.
 
 Doporučuji vždy stáhnout nejnovější dostupnou verzi:
 
@@ -47,7 +47,7 @@ Některé původní grafické nápisy nejsou textové prvky hry a zůstávají a
 
 ## Informace
 
-- **Verze češtiny:** 1.0
+- **Verze češtiny:** 1.1
 - **Jazyk:** čeština
 - **Stav:** finální vydání
 
