@@ -1,60 +1,200 @@
-# Airline Tycoon Deluxe – Čeština 1.1
+# ✈️ Airline Tycoon Deluxe – Čeština 2.0
 
 Kompletní česká lokalizace pro **Airline Tycoon Deluxe**.
 
-Překládá menu, rozhraní, dialogy, dopisy, obchody, nápovědu, kampaně i systémové hlášky. Součástí je také plná česká diakritika a upravené herní fonty.
+Překládá menu, rozhraní, dialogy, dopisy, obchody, nápovědu, kampaně, systémové hlášky a další texty hry. Součástí jsou české fonty s plnou diakritikou a nový grafický instalátor s podporou původní hry i současných komunitních buildů.
 
-Čeština byla testována především na **Steam verzi**, ale instalace není vázaná na konkrétní obchod a měla by fungovat i s dalšími kompatibilními Windows instalacemi hry.
+---
 
-## Doporučený komunitní build
+## 📥 Stažení
 
-Pro hraní doporučuji **WizzardMaker AirlineTycoon**, modernizovaný komunitní build hry.
+Nejnovější verzi najdete v sekci:
+
+**[Releases](https://github.com/LusciousFoxxx/Airline-Tycoon-Deluxe-Cestina/releases/latest)**
+
+Pro běžnou instalaci použijte instalační `.exe`.
+
+---
+
+## ✅ Podporované verze
+
+Čeština 2.0 podporuje:
+
+| Varianta | Podpora |
+|---|---|
+| Původní / Vanilla Airline Tycoon Deluxe | ✅ |
+| Steam verze | ✅ |
+| WizzardMaker 1.8.1 Preview | ✅ |
+| mertenpopp 1.9.1 | ✅ |
+
+Instalátor automaticky zjistí verzi hry, použitý build i stav české lokalizace.
+
+---
+
+# 🧩 Nový instalátor
+
+Čeština 2.0 používá nový grafický instalátor vytvořený speciálně pro tento projekt.
+
+Umí automaticky:
+
+- najít instalaci Airline Tycoon Deluxe,
+- detekovat Steam verzi,
+- zjistit použitý komunitní build,
+- zjistit stav češtiny,
+- nainstalovat Češtinu 2.0,
+- aktualizovat Češtinu 1.1,
+- opravit poškozenou instalaci,
+- aktualizovat podporovaný komunitní build,
+- vytvořit bezpečnou zálohu,
+- obnovit původní soubory,
+- odinstalovat změny provedené instalátorem,
+- stáhnout a ověřit komunitní build,
+- spustit hru správným způsobem podle typu instalace.
+
+Komunitní buildy **nejsou přibalené v instalátoru**.
+
+Pokud si některý z nich vyberete, instalátor stáhne originální release přímo z GitHubu jeho autora a před instalací ověří jeho integritu.
+
+---
+
+# 🛠️ WizzardMaker 1.8.1 Preview
+
+### Doporučená varianta
+
+Pro většinu hráčů doporučuji **WizzardMaker 1.8.1 Preview**.
+
+Tento komunitní build se zaměřuje především na opravy a lepší kompatibilitu původní hry s moderními počítači.
 
 Přináší například:
-- lepší kompatibilitu s moderními Windows,
-- windowed a borderless režim,
+
+- SDL2 renderovací backend,
+- opravy blikání grafiky,
+- opravy input lagu,
+- opravy některých pádů při Alt+Tab,
+- windowed režim,
+- borderless fullscreen,
 - opravy některých pádů hry,
-- opravy chování AI,
-- opravy zaměstnanců, dražeb a některých misí,
-- opravy a modernizaci síťové hry.
+- opravy AI,
+- opravy aukcí měst a gatů,
+- opravy některých misí,
+- další opravy původních herních mechanismů.
 
-Čeština byla otestována s verzí **1.8.1 Preview** a funguje s ní správně.
+Projekt:
 
-Doporučuji vždy stáhnout nejnovější dostupnou verzi:
+https://github.com/WizzardMaker/AirlineTycoon
 
-**https://github.com/WizzardMaker/AirlineTycoon/releases**
+---
 
-## Instalace
+# 🚀 mertenpopp 1.9.1
 
-Součástí češtiny je vlastní instalátor, který:
-- automaticky zazálohuje původní soubory,
-- umožňuje instalaci do libovolné složky hry,
-- není vázaný na Steam, GOG ani jinou konkrétní distribuci,
-- umí opravit poškozenou nebo neúplnou instalaci češtiny,
-- při odinstalaci obnoví původní soubory ze zálohy.
+Pro hráče, kteří chtějí více změn a rozšíření původní hry, je podporován také **mertenpopp 1.9.1**.
 
-K dispozici je také ruční verze pro uživatele, kteří instalátor použít nechtějí.
+Tato větev dále rozšiřuje Airline Tycoon Deluxe například v oblastech:
 
-## Kompatibilita
+- AI,
+- statistik,
+- informačních obrazovek,
+- paliva,
+- zaměstnanců,
+- letadel,
+- rychlosti hry,
+- klávesového ovládání,
+- dalších herních mechanik.
 
-Testováno:
-- Steam verze Airline Tycoon Deluxe
-- WizzardMaker AirlineTycoon 1.8.1 Preview
+Čeština 2.0 obsahuje vlastní lokalizační variantu určenou přímo pro tento build.
 
-## Známé drobnosti
+Projekt:
 
-Některé původní grafické nápisy nejsou textové prvky hry a zůstávají anglicky. Například zelený nápis **WAIT** v letištní hale je součástí původní grafiky/animace.
+https://github.com/mertenpopp/AirlineTycoon
 
-## Informace
+---
 
-- **Verze češtiny:** 1.1
-- **Jazyk:** čeština
-- **Stav:** finální vydání
+# 🔄 Přechod z Češtiny 1.1
 
-## Podmínky
+Pokud instalátor najde původní **Češtinu 1.1**, nabídne její aktualizaci na 2.0.
 
-Čeština je fanouškovská lokalizace. Původní hra a její materiály zůstávají majetkem příslušných vlastníků.
+Původní instalátor 1.1 nepoužíval dostatečně spolehlivý systém odinstalace a záloh. Čeština 2.0 proto obsahuje ověřené původní soubory potřebné pro bezpečný návrat lokalizovaných částí hry do původního stavu.
 
-Českou lokalizaci není bez souhlasu autora dovoleno upravovat, přebalovat, znovu nahrávat ani distribuovat pod jiným jménem.
+Není tedy nutné nejprve ručně odinstalovávat verzi 1.1.
 
-© 2026 LusciousFox. Všechna práva k autorským příspěvkům a sestavení této české lokalizace vyhrazena.
+---
+
+# 💾 Záloha a rollback
+
+Instalátor si vede vlastní záznam o souborech, kterých se dotkl.
+
+Rozlišuje:
+
+- původní soubory,
+- přepsané soubory,
+- nově přidané soubory,
+- build nainstalovaný už před Češtinou 2.0,
+- build nainstalovaný samotným instalátorem.
+
+Odinstalace se proto snaží vrátit hru do stavu odpovídajícího situaci před instalací Češtiny 2.0.
+
+---
+
+# 🩺 Oprava instalace
+
+Pokud jsou některé soubory češtiny nebo podporovaného komunitního buildu poškozené, instalátor nabídne možnost:
+
+**Opravit instalaci**
+
+U community buildu se znovu stáhne originální release, ověří se jeho integrita a následně se znovu aplikuje správná varianta Češtiny 2.0.
+
+---
+
+# 🎮 Spuštění hry
+
+Instalátor rozlišuje Steam a samostatnou instalaci.
+
+- **Steam verze** se spouští přes Steam.
+- **Ostatní instalace** se spouštějí přímo přes `AT.exe`.
+
+---
+
+# 💾 Savegame
+
+Savegame mezi jednotlivými buildy hry nemusí být vždy vzájemně kompatibilní.
+
+Při změně buildu proto doporučuji ponechat si vlastní kopii důležitých uložených pozic.
+
+---
+
+# ℹ️ mertenpopp a `JAZYK : EN`
+
+U mertenpopp buildu můžete v menu vidět:
+
+`JAZYK : EN`
+
+Hodnota `EN` označuje jazykovou konfiguraci enginu komunitního buildu.
+
+Nejedná se o indikaci toho, zda je česká lokalizace aktivní.
+
+---
+
+# ⚠️ Známé drobnosti
+
+Některé texty původní hry nejsou uložené jako běžné textové řetězce, ale přímo jako grafika.
+
+V této verzi proto mohou zůstat anglicky například:
+
+- `Continue briefing`
+- `Cancel briefing`
+- zelený `WAIT`
+
+Jejich lokalizace vyžaduje samostatnou úpravu původních grafických assetů.
+
+---
+
+# 📋 Technické informace
+
+Instalátor interně používá SHA-256 kontrolu podporovaných buildů a lokalizačních souborů.
+
+Technické informace se běžnému uživateli nezobrazují, ale jsou zapisovány do instalačního logu.
+
+Log najdete v:
+
+```text
+ATD_CZ_Backup\ATD_CZ_Installer.log
